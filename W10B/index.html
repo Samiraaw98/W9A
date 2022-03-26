@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="app.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1> Hello World</h1>
+    </div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="selection.html">Shop</a>
+        <a href="">Contact</a>
+  
+        <h1>Choose 1 </h1>
+        <form action="selection.html">
+            <div>
+            <input type="checkbox" id="food1" name="selection1" value="tacos">
+            <label for="food1"> Tacos</label>
+            
+            </div>
+        </div>
+            <div>
+            <input type="checkbox" id="food1" name="selection2" value="burritos">
+            <label for="selection2"> Burritos</label>
+        </div>
+            <div>
+            <input type="checkbox" id="food1" name="selection3" value="Quesadillas">
+            <label for="selection3"> Quesadillas</label>
+        </div>
+            
+            <div id="button">
+            <button onclick="foodSelection = 'selection.html';" id="myButton" class="float-left submit-button" >Submit</button>
+        </div>
+        </form>
+        
+</body>
+</html>
