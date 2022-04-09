@@ -1,0 +1,61 @@
+.btn:hover, .btn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover .content {
+  display: block;
+}
+
+.content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 60px;
+  height: 150px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+}
+
+#button {
+  text-align: center;
+  border: 3px solid black;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  background-color: #809dd1;
+  margin-left: 100px;
+  margin-top: 30px;
+  width: 80vw;
+}
+
+#text {
+  font-family: monospace;
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+li {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-left: -40px;
+}
+
+#body {
+  text-align: center;
+  border: 3px solid black;
+  padding-bottom: 30px;
+  background-color: #809dd1;
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 80vw;
+}
+/*# sourceMappingURL=style.css.map */
